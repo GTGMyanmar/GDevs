@@ -12,7 +12,8 @@ $(".dropdown-button1").dropdown({
     belowOrigin: true, 
     alignment: "right" 
 });
-$(".button-collapse").sideNav(); 
+  $(".button-collapse").sideNav(); 
+  $(".modal").modal();
 
         
 
