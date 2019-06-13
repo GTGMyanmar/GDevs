@@ -11,3 +11,13 @@ html {
     height: 80vh;
     
 }
+
+@media (max-width: 667px){
+.small {
+    font-size: 0.8rem;
+    text-align: center;
+    align-self: auto;
+    
+}
+}
+
