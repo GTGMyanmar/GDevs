@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>GDevs</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-     <div class="section"></div>
-  <main>
-    <center>
-     
-      <div class="section"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>GDevs</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <h5 class="indigo-text">Please, login into your account</h5>
-      <div class="section"></div>
+<body>
+  <div class="section"></div>
+  <div class="section"></div>
 
-      <div class="container">
-        <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+  <div class="container">
+    <div class="row">
+      <div class="col m3"></div>
+      <div class="col s12 m6">
+        <div class="card darken-4 signup">
 
-          <form class="col s12" method="post">
-            <div class='row'>
-              <div class='col s12'>
+          <div class="section hide-on-small-only"></div>
+          <h4 class="white-text darken-4 center-align">GDevs, Developers Portal</h4>
+          <div class="section hide-on-small-only"></div>
+          <div class="section hide-on-small-only"></div>
+          <div class="card-content white-text">
+            
+            <form>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input value="Alvin" id="first_name2" type="text" class="validate" />
+                  <label class="active" for="first_name2">First Name</label>
+                </div>
               </div>
-            </div>
 
-            <div class='row'>
-              <div class='input-field col s12'>
-                <input class='validate' type='email' name='email' id='email' />
-                <label for='email'>Enter your email</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate" />
+                  <label for="email">Email</label>
+                  <span class="helper-text" data-error="invalid email" data-success="valid email"></span>
+                </div>
               </div>
-            </div>
-
-            <div class='row'>
-              <div class='input-field col s12'>
-                <input class='validate' type='password' name='password' id='password' />
-                <label for='password'>Enter your password</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input class="validate" type="password" name="password" id="password" />
+                  <label for="password">Enter your password</label>
+                </div>
               </div>
-              <label style='float: right;'>
-								<a class='pink-text' href='#!'><b>Forgot Password?</b></a>
-							</label>
-            </div>
-
-            <br />
-            <center>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input class="validate" type="password" name="password" id="password" />
+                  <label for="password">Enter your password</label>
+                </div>
+              </div>
               <div class='row'>
-                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
-              </div>
-            </center>
-          </form>
+                <div class="input-field col s12">
+                  <button type='submit' name='btn_login'
+                    class='col s12 btn btn-large waves-effect indigo'>Login</button>
+
+                </div>
+            </form>
+          </div>
+          <div class="section hide-on-small-only"></div>
+          <div class="card-action">
+            <div class="row">
+              <div class="col s3"></div>
+              <a class='pink-text center-align col s6' href='#!'><u>Already have an acount?</u></a>
+              <div class="col s3"></div>
+            </div>
+
+          </div>
         </div>
       </div>
-      <a href="#!">Create account</a>
-    </center>
 
-    <div class="section"></div>
-    <div class="section"></div>
-  </main>
+      <div class="col m3"></div>
+    </div>
+  </div>
 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/materialize.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/materialize.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
