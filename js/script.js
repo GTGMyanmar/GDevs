@@ -23,7 +23,8 @@ $(".dropdown-button1").dropdown({
     close: "Ok",
     closeOnSelect: false // Close upon selecting a date,
   });
-        
+  M.updateTextFields(); 
+  validate_field("#email");
 
     
 });
